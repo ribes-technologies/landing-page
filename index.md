@@ -271,5 +271,21 @@ nav-menu: true
 		</div>
 	</section>
 </section>
+<section id="three" class="spotlights">
+	<!-- School of Pioniers -->
+	<section>
+		<div class="content">
+			<div class="inner">
+				<header class="major">
+					<h3>Supported by EIT Food</h3>
+				</header>
+				<p>Ribes Technologies is supported by EIT Food, supported by the European Institute of Innovation and Technology (EIT)</p>
+			</div>
+		</div>
+		<div class="image px-5 d-flex align-items-center bg-white">
+			<img src="{% link assets/images/eit_food.png %}" alt="" class="img-fluid mx-auto d-block" />
+		</div>
+	</section>
+</section>
 
 </div>
