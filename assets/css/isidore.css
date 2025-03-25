@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif!important; /* Apply Open Sans font */
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+#logo-text {
+  max-height: 20px;
+}
+
+.bg-primary-isidore {
+  background-color: #093F5D!important; /* Dark blue background color */
+}
+
+.text-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-justify-content {
+  justify-content: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+.entry {
+  min-height: 70vh;  
+  background-image: url('../images/isidore.jpg');
+  /* , linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.entry::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Grey overlay with 50% transparency */
+}
+
+.footer {
+  min-height: 40vh;
+}
+
+.container-content {
+  position: relative; /* Create stacking context for content */
+  z-index: 2; /* Place content above overlay */
+}
