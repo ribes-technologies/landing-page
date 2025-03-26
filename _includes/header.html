@@ -2,8 +2,11 @@
 <div id="wrapper">
 
 <!-- Header -->
-<header id="header"{% if page.layout == "landing" %} class="alt style2 py-3"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
-	<a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> </a>
+<header id="header"{% if page.layout == "landing" %} class="alt style2 pe-3"{% endif %}{% if page.layout == "home" %} class="alt"{% endif %}>
+	<a href="{{ "" | absolute_url }}/" class="logo navbar-brand mt-2 me-0">
+		<img src="{% link assets/images/ribes_logo_solo.png %}" alt="Isidore Logo" class="img-fluid">
+	</a>
+	<strong class="font-open-sans">{{ site.title }}</strong>
 	<!-- <a href="{{ "" | absolute_url }}/" class="logo"><strong>{{ site.title }}</strong> <span>{{ site.subtitle }}</span></a> -->
 	<div class="d-flex align-items-center">
 
