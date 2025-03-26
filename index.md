@@ -25,22 +25,22 @@ nav-menu: true
 
 <!-- Two -->
 <section id="two" class="spotlights">
-	<section>
+	<section class="pb-5 pt-3">
 		<a href="generic.html" class="image">
-			<img src="{% link assets/images/pic13.jpg %}" alt="" data-position="center center" />
+			<img src="{% link assets/images/isidore_hero.png %}" alt="" data-position="center center" />
 		</a>
 		<div class="content">
 			<div class="inner">
 				<header class="major">
-					<h3>Our Solution</h3>
+					<h3>Our Solution - Isidore</h3>
 				</header>
 				<p>Autonomous protection of berry plantations.<br><br>
 				Visual recognistion of the plants, powered by AI, to quickly identify diseases attacking plantations.
 				Precision application of plant health products to minimise the cost.
 				Electricly powered, autonomic vehicle to keep the plantation under constant supervision.</p>
-				<!-- <ul class="actions">
-					<li><a href="generic.html" class="button">Learn more</a></li>
-				</ul> -->
+				<ul class="actions">
+					<li><a href="/isidore" class="button">Learn more</a></li>
+				</ul>
 			</div>
 		</div>
 	</section>
