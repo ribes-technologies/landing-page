@@ -32,7 +32,7 @@ body {
 
 .entry {
   min-height: 70vh;  
-  background-image: url('../images/isidore.jpg');
+  background-image: url('../images/isidore_short.gif');
   /* , linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
   background-size: cover;
   background-position: center;
