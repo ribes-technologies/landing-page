@@ -35,12 +35,12 @@ nav-menu: true
 
 <section class="jumbotron text-center pb-5 pt-2 bg-primary-isidore">
     <div class="container-fluid entry flex flex-justify-content flex-align-items-center">
-        <div class="container-content">
-            <div class="logo">
-                <img src="{% link assets/images/isidore_logo.png %}" alt="Isidore Logo">
-            </div>
-            <div class="text text-white">
-                by Ribes Technologies    
+        <div class="container-content row justify-content-center">
+            <div class="col-10 col-md-6 col-lg-3">
+                    <img src="{% link assets/images/isidore_logo.png %}" alt="Isidore Logo" class="img-fluid">
+                <div class="text text-white">
+                    by Ribes Technologies
+                </div>
             </div>
         </div>
         <!-- <h1 class="display-4">Welcome to Our Product</h1>

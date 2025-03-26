@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif!important; /* Apply Open Sans font */
+  font-family: 'Open Sans', sans-serif!important;
 }
 
 .navbar-brand img {
@@ -11,7 +11,7 @@ body {
 }
 
 .bg-primary-isidore {
-  background-color: #093F5D!important; /* Dark blue background color */
+  background-color: #093F5D!important;
 }
 
 .text-white {
@@ -30,10 +30,14 @@ body {
   align-items: center;
 }
 
+section.jumbotron {
+  width: 100%; /* Ensure jumbotron takes full width */
+}
+
 .entry {
-  min-height: 70vh;  
+  width: 100%; /* Ensure flex container takes full width */
+  min-height: 70vh;
   background-image: url('../images/isidore_short.gif');
-  /* , linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -47,7 +51,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.7); /* Grey overlay with 50% transparency */
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
 .footer {
@@ -55,6 +59,7 @@ body {
 }
 
 .container-content {
-  position: relative; /* Create stacking context for content */
-  z-index: 2; /* Place content above overlay */
+  width: 100%; /* Ensure row takes full width */
+  position: relative;
+  z-index: 2;
 }
