@@ -1,0 +1,125 @@
+---
+---
+@import url(https://db.onlinewebfonts.com/c/97386c1d7bdb684478ab36ec4e1129c8?family=Sk-Modernist);
+
+$primary-isidore: #093F5D; // Bootstrap default
+$secondary-isidore: #E6C688; // Bootstrap default
+$--bs-secondary-rgb: #E6C688; // Bootstrap default
+$success: #28a745; // Bootstrap default
+$danger: #dc3545; // Bootstrap default
+
+body {  
+  font-family: "Sk-Modernist";
+}
+
+.text-open-sans {
+  font-family: 'Open Sans', sans-serif!important;
+}
+
+.navbar-brand img {
+  max-height: 40px;
+}
+
+#logo-text {
+  max-height: 20px;
+}
+
+
+
+.bg-primary-isidore {
+  background-color: #093F5D!important;
+}
+
+.bg-secondary-isidore {
+  background-color: #E6C688!important;
+}
+
+.text-white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-justify-content {
+  justify-content: center;
+}
+
+.flex-align-items-center {
+  align-items: center;
+}
+
+section.jumbotron {
+  width: 100%; /* Ensure jumbotron takes full width */
+}
+
+.entry {
+  width: 100%; /* Ensure flex container takes full width */
+  min-height: 70vh;
+  background-image: url('../images/isidore_short.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.entry::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.footer {
+  min-height: 5vh;
+}
+
+.container-content {
+  width: 100%; /* Ensure row takes full width */
+  position: relative;
+  z-index: 2;
+}
+
+.btn-secondary-isidore {
+  background-color: transparent; /* Przezroczyste tło */
+  border: 2px solid $secondary-isidore; /* Kolor ramki */
+  border-radius: 50px; /* Zaokrąglone krawędzie */
+  padding: 10px 20px; /* Wewnętrzne odstępy */
+  color: $secondary-isidore;
+}
+
+.btn-secondary-isidore:hover {
+  border: 2px solid $secondary-isidore; /* Kolor ramki */
+  background-color: $secondary-isidore;; /* Kolor tła po najechaniu */
+  color: $primary-isidore; /* Zmieniamy kolor tekstu po najechaniu */
+}
+
+.btn-primary-isidore {
+  background-color: transparent; /* Przezroczyste tło */
+  border: 2px solid $primary-isidore; /* Kolor ramki */
+  border-radius: 50px; /* Zaokrąglone krawędzie */
+  padding: 10px 20px; /* Wewnętrzne odstępy */
+  color: $primary-isidore;
+}
+
+.btn-primary-isidore:hover {
+  border: 2px solid $primary-isidore; /* Kolor ramki */
+  background-color: $primary-isidore;; /* Kolor tła po najechaniu */
+  color: $secondary-isidore; /* Zmieniamy kolor tekstu po najechaniu */
+}
+
+.color-primary {
+  color: $primary-isidore
+}
+
+.color-secondary {
+  color: $secondary-isidore
+}
+
+.logo-footer {
+  max-width: 40px;
+}
